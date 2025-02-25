@@ -26,4 +26,13 @@ print(x)
 v2 = np.array([2, 4, 6, 7]) #if i try to put this vector in a 3x3 matrix, it will occor an error
 
 #matrix multiplication
-print(np.matmul(x, v))
+print(np.matmul(x, v)) # an matrix multipling with a vector
+
+# Venv: virtual environment
+# its necessary to set up the project dependencies
+    # python -m venv my-env
+    # run on windown:
+        #.\my-env\Scripts\activate.bat
+    # run on linux:
+        #source my-env/bin/activate
+        
